@@ -2918,6 +2918,10 @@
     }
   }
 
+  .bg-slate-50 {
+    background-color: var(--color-slate-50);
+  }
+
   .bg-slate-50\/80 {
     background-color: #f8fafccc;
   }
@@ -3307,6 +3311,10 @@
 
   .fill-primary {
     fill: var(--primary);
+  }
+
+  .object-contain {
+    object-fit: contain;
   }
 
   .p-0 {
