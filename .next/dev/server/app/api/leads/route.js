@@ -1,0 +1,13 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/leads/route.js")
+R.c("server/chunks/node_modules_next_bf3dba86._.js")
+R.c("server/chunks/node_modules_exceljs_85dabae6._.js")
+R.c("server/chunks/node_modules_f9766be7._.js")
+R.c("server/chunks/node_modules_jszip_lib_bd6479a5._.js")
+R.c("server/chunks/node_modules_pako_5efc97ef._.js")
+R.c("server/chunks/node_modules_async_dist_async_mjs_3c3c2e3f._.js")
+R.c("server/chunks/node_modules_bluebird_js_release_beb134e3._.js")
+R.c("server/chunks/node_modules_5c109534._.js")
+R.c("server/chunks/[root-of-the-server]__5ad2806d._.js")
+R.c("server/chunks/_next-internal_server_app_api_leads_route_actions_8059d9e6.js")
+R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/leads/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/leads/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports
