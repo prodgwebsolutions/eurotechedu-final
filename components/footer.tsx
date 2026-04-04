@@ -11,9 +11,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* About */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold leading-tight">
-              Euro Tech EDU
-            </h3>
+            <Link href="/" className="flex items-center gap-3 mb-4">
+              <div className="h-10 w-10 bg-white p-1 rounded-lg">
+                <img src="/logo.png" alt="Euro Tech EDU Logo" className="h-full w-full object-contain" />
+              </div>
+              <h3 className="text-xl font-bold font-heading text-white">
+                Euro Tech EDU
+              </h3>
+            </Link>
             <p className="text-accent text-sm font-medium tracking-wide uppercase">Your Study Abroad Partner</p>
             <p className="text-sm text-white/70 leading-relaxed pt-2">
               Your trusted partner in international education. Guiding students to their dream universities with transparency and dedication.

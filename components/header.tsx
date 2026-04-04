@@ -14,10 +14,15 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="text-2xl font-bold text-primary leading-tight">
-              Euro Tech EDU
-              <span className="block text-[10px] sm:text-xs font-medium text-accent tracking-wider uppercase">Your Study Abroad Partner</span>
-            </div>
+            <Link href="/" className="flex items-center gap-3 group">
+              <div className="relative h-12 w-12 overflow-hidden rounded-xl bg-slate-50 p-1 shadow-sm border border-slate-100 group-hover:scale-105 transition-transform duration-300">
+                <img src="/logo.png" alt="Euro Tech EDU Logo" className="h-full w-full object-contain" />
+              </div>
+              <div className="text-2xl font-bold text-primary leading-tight">
+                Euro Tech EDU
+                <span className="block text-[10px] sm:text-xs font-medium text-accent tracking-wider uppercase">Your Study Abroad Partner</span>
+              </div>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
