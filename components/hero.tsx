@@ -179,7 +179,7 @@ export default function Hero() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full p-3 border rounded-lg"
+                  className="w-full p-3 border bg-white rounded-lg"
                 />
 
                 <input
@@ -189,7 +189,7 @@ export default function Hero() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full p-3 border rounded-lg"
+                  className="w-full p-3 border bg-white rounded-lg"
                 />
 
                 <input
@@ -199,7 +199,7 @@ export default function Hero() {
                   value={formData.phone}
                   onChange={handleChange}
                   required
-                  className="w-full p-3 border rounded-lg"
+                  className="w-full p-3 border bg-whiterounded-lg"
                 />
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-4">

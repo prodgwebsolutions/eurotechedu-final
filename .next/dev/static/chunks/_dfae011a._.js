@@ -873,7 +873,7 @@ function Hero() {
                                             value: formData.name,
                                             onChange: handleChange,
                                             required: true,
-                                            className: "w-full p-3 border rounded-lg"
+                                            className: "w-full p-3 border bg-white rounded-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/components/hero.tsx",
                                             lineNumber: 175,
@@ -886,7 +886,7 @@ function Hero() {
                                             value: formData.email,
                                             onChange: handleChange,
                                             required: true,
-                                            className: "w-full p-3 border rounded-lg"
+                                            className: "w-full p-3 border bg-white rounded-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/components/hero.tsx",
                                             lineNumber: 185,
@@ -899,7 +899,7 @@ function Hero() {
                                             value: formData.phone,
                                             onChange: handleChange,
                                             required: true,
-                                            className: "w-full p-3 border rounded-lg"
+                                            className: "w-full p-3 border bg-whiterounded-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/components/hero.tsx",
                                             lineNumber: 195,
