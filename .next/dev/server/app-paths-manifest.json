@@ -1,9 +1,6 @@
 {
   "/admin/page": "app/admin/page.js",
-  "/login/page": "app/login/page.js",
+  "/api/submit-lead/route": "app/api/submit-lead/route.js",
   "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
-  "/page": "app/page.js",
-  "/programs/engineering/page": "app/programs/engineering/page.js",
-  "/programs/mba/page": "app/programs/mba/page.js",
-  "/programs/mbbs/page": "app/programs/mbbs/page.js"
+  "/page": "app/page.js"
 }

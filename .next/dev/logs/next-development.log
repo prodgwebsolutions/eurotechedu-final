@@ -1,20 +1,3635 @@
-[00:00:01.723] Server  LOG      ✓ Ready in 1177ms
-[00:00:06.350] Server  LOG      ○ Compiling / ...
-[00:00:08.994] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.465] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:09.465] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:09.465] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775299166916} /_vercel/insights/view
-[00:01:07.675] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:08.053] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:08.053] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:08.054] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775299225502} /_vercel/insights/view
-[00:01:20.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:21.374] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:01:21.374] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:01:21.374] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775299238824} /_vercel/insights/view
-[00:14:15.721] Server  LOG      ○ Compiling /admin ...
-[00:14:21.979] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:22.188] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.794] Server  LOG      ✓ Ready in 1153ms
+[00:00:04.877] Server  LOG      ○ Compiling / ...
+[00:00:08.145] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:08.145] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:08.145] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775720087527} /_vercel/insights/view
+[00:02:56.821] Server  LOG      ✓ Compiled in 620ms
+[00:03:26.371] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en-IN" dir="ltr">
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:03:26.488] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:26.489] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:03:26.489] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775720285871} /_vercel/insights/view
+[00:10:05.391] Server  LOG      ✓ Compiled in 842ms
+[00:12:44.199] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
++                         lang="en-IN"
+-                         lang="en"
+                          dir="ltr"
+                        >
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:12:44.347] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:12:44.347] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:12:44.347] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775720843729} /_vercel/insights/view
+[00:14:26.962] Server  LOG      ✓ Compiled in 177ms
+[00:27:37.352] Server  LOG      ✓ Compiled in 415ms
+[00:28:19.907] Server  LOG      ✓ Compiled in 252ms
+[00:34:11.848] Server  LOG      ✓ Compiled in 467ms
+[00:34:27.099] Server  LOG      ✓ Compiled in 123ms
+[00:34:27.336] Browser ERROR   ./components/hero.tsx:8:1
+Parsing ecmascript source code failed
+   6 | import { motion, Variants } from 'framer-motion';
+   7 | import 
+>  8 | export default function Hero() {
+     | ^^^^^^
+   9 |   const [formData, setFormData] = useState({
+  10 |     name: '',
+  11 |     email: '',
+
+Expected 'from', got 'export'
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:30.586] Server  LOG      ✓ Compiled in 131ms
+[00:34:31.336] Browser ERROR   ./components/hero.tsx:7:13
+Parsing ecmascript source code failed
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero fr
+     |             ^^
+   8 | export default function Hero() {
+   9 |   const [formData, setFormData] = useState({
+  10 |     name: '',
+
+Expected ',', got 'fr'
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:42.962] Server  LOG      ✓ Compiled in 131ms
+[00:34:43.337] Browser ERROR   ./components/hero.tsx:90:11
+Parsing ecmascript source code failed
+  88 |         <img
+  89 |           src={}
+> 90 |           alt="Study abroad background"
+     |           ^^^
+  91 |           className="w-full h-full object-cover"
+  92 |         />
+  93 |       </div>
+
+Expected '</', got 'alt'
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:45.046] Server  LOG      ✓ Compiled in 265ms
+[00:34:45.336] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:52.505] Server  LOG      ✓ Compiled in 115ms
+[00:34:53.335] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:56.150] Server  LOG      ✓ Compiled in 326ms
+[00:34:56.335] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:34:59.335] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:18.226] Server  LOG      ✓ Compiled in 126ms
+[00:35:18.329] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:18.329] Browser ERROR   ./components/hero.tsx:8:1
+Parsing ecmascript source code failed
+   6 | import { motion, Variants } from 'framer-motion';
+   7 | import hero from 
+>  8 | import Image from 'next/image';
+     | ^^^^^^
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+  11 |     name: '',
+
+Unexpected token `import`. Expected a string literal
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:19.335] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.340] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.345] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.351] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.372] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.375] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.381] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.388] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.397] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.403] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.410] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.417] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.426] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.432] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.455] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.458] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.464] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.469] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.474] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.478] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.485] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.490] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.493] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.498] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.505] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.509] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.513] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.518] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:19.522] Server  LOG      ✓ Compiled in 132ms
+[00:35:19.625] Browser ERROR   ./components/hero.tsx:7:1
+Module not found: Can't resolve ''
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ""
+     | ^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:35:21.545] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.548] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.551] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.554] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.561] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.566] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.570] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.575] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.580] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.583] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.586] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.589] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.594] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.597] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.601] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.604] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.608] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.612] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.615] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.619] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.624] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.629] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.634] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.639] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.646] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.651] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.656] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.661] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:21.666] Server  LOG      ✓ Compiled in 109ms
+[00:35:21.767] Browser ERROR   ./components/hero.tsx:7:1
+Module not found: Can't resolve '..'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from ".."
+     | ^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:35:22.967] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:22.972] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:22.978] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:22.983] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:22.990] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:22.994] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:22.999] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.003] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.010] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.014] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.019] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.024] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.030] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.035] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.039] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.042] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.046] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.049] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.051] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.054] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.059] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.061] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.064] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.067] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.071] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.074] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.077] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.079] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:23.082] Server  LOG      ✓ Compiled in 110ms
+[00:35:23.184] Browser ERROR   ./components/hero.tsx:7:1
+Module not found: Can't resolve '../'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../"
+     | ^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:35:25.973] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:25.976] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:25.978] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:25.981] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:25.988] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:25.992] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:25.998] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.003] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.009] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.014] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.019] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.023] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.030] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.036] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.041] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.046] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.055] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.061] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.067] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.072] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.079] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.084] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.090] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.094] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.102] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.107] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.110] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.113] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:35:26.116] Server  LOG      ✓ Compiled in 105ms
+[00:35:26.218] Browser ERROR   ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:35:27.639] Server  LOG      ✓ Compiled in 107ms
+[00:35:27.798] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:28.336] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:33.235] Server  ERROR    ⨯ ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:35:33.351] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:34.803] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:35.152] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:36.663] Browser ERROR   uncaughtError: Error: ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:35:36.849] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:35:36.986] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:40:24.336] Browser ERROR   ./public/hero.png
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Png: Invalid PNG signature.
+- Invalid PNG signature.
+
+Import trace:
+  Client Component SSR:
+    ./public/hero.png
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:40:30.322] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/hero.'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/hero."
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:30.329] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/hero.'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/hero."
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:30.339] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/hero.'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/hero."
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:30.345] Server  ERROR    ⨯ ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/hero.'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/hero."
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:40:31.335] Browser ERROR   ./components/hero.tsx:7:1
+Module not found: Can't resolve '../public/hero.'
+   5 | import { MapPin, GraduationCap } from 'lucide-react';
+   6 | import { motion, Variants } from 'framer-motion';
+>  7 | import hero from "../public/hero."
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import Image from 'next/image';
+   9 | export default function Hero() {
+  10 |   const [formData, setFormData] = useState({
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:40:32.294] Server  LOG      ✓ Compiled in 132ms
+[00:40:35.343] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
++                         lang="en-IN"
+-                         lang="en"
+                          dir="ltr"
+                        >
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen"
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:40:35.343] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:35.343] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:40:35.343] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775722514409} /_vercel/insights/view
+[00:40:39.057] Browser WARN    Image with src "/_next/static/media/hero.0a3d46ef.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:40:41.942] Browser WARN    Image with src "/_next/static/media/hero.0a3d46ef.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:40:42.245] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:40:42.245] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:40:42.245] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775722521627} /_vercel/insights/view
+[00:41:10.581] Server  LOG      ✓ Compiled in 376ms
+[00:41:24.779] Server  LOG      ✓ Compiled in 120ms
+[00:44:24.792] Server  LOG      ✓ Compiled in 126ms
+[00:45:06.700] Server  LOG      ✓ Compiled in 124ms
+[00:45:19.009] Server  LOG      ✓ Compiled in 157ms
+[00:45:32.875] Server  LOG      ✓ Compiled in 128ms
+[00:45:34.128] Server  LOG      ✓ Compiled in 144ms
+[00:45:34.337] Browser ERROR   ./components/hero.tsx:269:14
+Parsing ecmascript source code failed
+  267 |                 )}
+  268 |               </form>
+> 269 |             )}
+      |              ^
+  270 |           </motion.div>
+  271 |
+  272 |         </div>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./components/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/hero.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:46:20.344] Server  LOG      ✓ Compiled in 115ms
+[00:46:22.085] Server  LOG      ✓ Compiled in 122ms
+[00:46:23.182] Server  LOG      ✓ Compiled in 105ms
+[00:46:47.940] Server  LOG      ✓ Compiled in 301ms
+[00:46:56.085] Server  LOG      ✓ Compiled in 318ms
+[00:47:37.955] Server  LOG      ○ Compiling /admin ...
+[00:47:42.450] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -46,46 +3661,14 @@ It can also happen if the client has a browser extension installed which messes 
                       <script>
                       <script>
                       <RootLayout>
-                        <html
-                          lang="en-IN"
-                          dir="ltr"
--                         data-layerpath-loaded="true"
--                         data-layerpath-ready="true"
-                        >
+                        <html lang="en-IN" dir="ltr">
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen"
+-                           cz-shortcut-listen="true"
+                          >
                   ...
 
-[00:14:22.387] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:22.387] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
-[00:14:22.387] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300019783} /_vercel/insights/view
-[00:14:26.428] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300023672} /_vercel/insights/view
-[00:14:35.004] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:14:35.004] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:14:35.004] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300032453} /_vercel/insights/view
-[00:16:25.955] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:26.471] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:16:26.471] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:16:26.471] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300143920} /_vercel/insights/view
-[00:16:33.230] Server  LOG      ✓ Compiled in 802ms
-[00:17:59.478] Server  LOG      ✓ Compiled in 177ms
-[00:18:44.217] Server  LOG      ✓ Compiled in 195ms
-[00:18:55.893] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:56.448] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:56.448] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:56.448] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300293894} /_vercel/insights/view
-[00:20:08.977] Server  LOG      ○ Compiling /programs/mbbs ...
-[00:20:15.647] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/programs/engineering color: rgb(120, 120, 120) color: inherit {"dp":"/programs/engineering","o":"http://localhost:3000/programs/engineering","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300373087} /_vercel/insights/view
-[00:20:27.648] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/programs/mbbs color: rgb(120, 120, 120) color: inherit {"dp":"/programs/mbbs","o":"http://localhost:3000/programs/mbbs","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300385087} /_vercel/insights/view
-[00:20:35.177] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/programs/mba color: rgb(120, 120, 120) color: inherit {"dp":"/programs/mba","o":"http://localhost:3000/programs/mba","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300392615} /_vercel/insights/view
-[00:20:43.277] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:20:43.278] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:20:43.278] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#programs color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#programs","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775300400697} /_vercel/insights/view
-[00:45:44.183] Server  LOG      ✓ Compiled in 920ms
-[00:46:00.032] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:46:00.032] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:46:00.032] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#destinations color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#destinations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775301677144} /_vercel/insights/view
-[00:50:03.144] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:50:03.144] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:50:03.144] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/#destinations color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/#destinations","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775301920256} /_vercel/insights/view
-[00:54:21.221] Server  LOG      ✓ Compiled in 470ms
-[00:54:22.843] Server  LOG      ✓ Compiled in 188ms
-[00:54:24.834] Server  LOG      ✓ Compiled in 127ms
+[00:47:42.570] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:47:42.570] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/admin","route":"/admin"}
+[00:47:42.570] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/admin color: rgb(120, 120, 120) color: inherit {"dp":"/admin","o":"http://localhost:3000/admin","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775722941952} /_vercel/insights/view
