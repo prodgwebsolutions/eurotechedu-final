@@ -899,7 +899,7 @@ function Hero() {
                                             value: formData.phone,
                                             onChange: handleChange,
                                             required: true,
-                                            className: "w-full p-3 border bg-whiterounded-lg"
+                                            className: "w-full p-3 border bg-white rounded-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/components/hero.tsx",
                                             lineNumber: 195,
